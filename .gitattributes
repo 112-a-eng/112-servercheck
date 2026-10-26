@@ -1,0 +1,13 @@
+# 仓库内统一按 LF 存储，检出时由 Git 按平台处理
+* text=auto
+
+# 这些必须保持原样
+*.png binary
+*.ico binary
+*.exe binary
+*.dll binary
+
+# Windows 脚本用 CRLF 更稳妥
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
