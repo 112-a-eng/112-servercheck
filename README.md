@@ -1,7 +1,13 @@
-﻿# 服务器查询器（ServerCheck）
+# 服务器查询器（ServerCheck）
+
+[![Release](https://img.shields.io/github/v/release/112-a-eng/112-servercheck?label=release)](https://github.com/112-a-eng/112-servercheck/releases/latest)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Windows 桌面服务器巡检小工具：**连通性检查**（Ping / TCP 端口 / HTTP 状态）+ **SSH 服务器信息**（系统、CPU、内存、磁盘、负载）。
 Python + tkinter 写的，能打包成单文件 exe，双击即用。
+
+**免安装**：从 [Releases](https://github.com/112-a-eng/112-servercheck/releases/latest) 下载
+`ServerCheck-v1.0.0.exe`（单文件，Windows 10/11 x64），双击即可使用。
 
 ![连通性检查](docs/screenshot-check.png)
 
